@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# IDE
+.claude/
+.vscode/
+.idea/
+
+# 数据文件（不上传）
+data/
+
+# 输出和缓存（不上传）
+output/
+output_labeling/
+
+# 旧文件
+_old/
+standalone/_old/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# sklearn 兼容层
+sklearn/
+_sklearn_compat.py
+
+# 模型缓存
+sentence-transformers-cache/
